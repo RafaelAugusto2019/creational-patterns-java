@@ -1,4 +1,4 @@
-package br.com.creational.patterns.factorymethod.interfaces;
+package br.com.creational.patterns.factorymethod.controller;
 
 import br.com.creational.patterns.factorymethod.model.MonstroModel;
 
