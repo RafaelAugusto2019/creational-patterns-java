@@ -6,7 +6,7 @@ import br.com.creational.patterns.factorymethod.interfaces.MonstroFactory;
 
 public class MonstroFogoFactory implements MonstroFactory{
 
-	public Monstro geraMonstro() {	
+	public Monstro geraMonstroFactory() {	
 		return new MonstroFogo();
 	}
 

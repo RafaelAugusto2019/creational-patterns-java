@@ -8,11 +8,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Monstro monstroAgua = new MonstroAguaFactory().geraMonstro();		
-		System.out.println(monstroAgua);
+		Monstro monstroAgua = new MonstroAguaFactory().geraMonstroFactory();
+		monstroAgua.geraMostro();
 		
-		Monstro monstroFogo = new MonstroFogoFactory().geraMonstro();
-		System.out.println(monstroFogo);
+		System.out.println(monstroAgua.geraAtaque());
+		
+		Monstro monstroFogo = new MonstroFogoFactory().geraMonstroFactory();
+		monstroFogo.geraMostro();
+		
+		System.out.println(monstroFogo.geraAtaque());
 
 
 	}
